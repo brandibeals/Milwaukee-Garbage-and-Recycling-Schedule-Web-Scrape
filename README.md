@@ -14,16 +14,16 @@ import pandas as pd
 ### Set Variables
 ```python
 # what's the url and where is your Selenium Chrome driver saved?
-url = "https://city.milwaukee.gov/recycle/Curbside-Cart-Collection/Schedule-Set-Out-Information"
+url = "https://city.milwaukee.gov/sanitation/GarbageRecyclingSchedules"
 driver = webdriver.Chrome('C:/Users/bbeals/Selenium/chromedriver')
 driver.implicitly_wait(30)
 driver.get(url)
 
 # what's your street address? save it here!
-address = '4918'
+address = '3536'
 direction = 'W'
-street = 'WASHINGTON'
-streettype = 'BL'
+street = 'FOND DU LAC'
+streettype = 'AV'
 ```
 
 ### Find Form Elements
